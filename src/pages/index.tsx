@@ -33,7 +33,7 @@ const GridRow: any = styled.div`
     props.background
       ? `linear-gradient(
       -185deg,
-      ${rgba(darken(0.1, props.theme.colors.primary), 0.7)}, 
+      ${rgba(darken(0.1, props.theme.colors.primary), 0.7)},
       ${rgba(lighten(0.1, props.theme.colors.grey.dark), 0.9)}), url(/assets/bg.png) no-repeat`
       : null};
   background-size: cover;
@@ -68,16 +68,17 @@ export default class IndexPage extends React.Component<PageProps> {
               <HomepageContent center={true}>
                 <img src={config.siteLogo} />
                 <h1>
-                  Hi. I am <br />
-                  Majid Hajian
+                  Olá! Eu sou <br />
+                  Thiago Silva <br />
+                  Moy Chi Yau Si
                 </h1>
-                <p>I write about JavaScript, Angular, Ember, React, Vue, GlimmerJs, NodeJs, Rails, Go, Gatsby and ...</p>
+                <p>Algumas palavras sobre Kung Fu, ou seja, <br /> sobre a Vida, o Universo e Tudo Mais</p>
                 <Link to="/contact">
                   <Button big={true}>
                     <svg width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
                       <path d="M1764 11q33 24 27 64l-256 1536q-5 29-32 45-14 8-31 8-11 0-24-5l-453-185-242 295q-18 23-49 23-13 0-22-4-19-7-30.5-23.5t-11.5-36.5v-349l864-1059-1069 925-395-162q-37-14-40-55-2-40 32-59l1664-960q15-9 32-9 20 0 36 11z" />
                     </svg>
-                    Contact
+                    Contatos
                   </Button>
                 </Link>
                 <Link to="/blog">
@@ -85,21 +86,19 @@ export default class IndexPage extends React.Component<PageProps> {
                     <svg width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
                       <path d="M1764 11q33 24 27 64l-256 1536q-5 29-32 45-14 8-31 8-11 0-24-5l-453-185-242 295q-18 23-49 23-13 0-22-4-19-7-30.5-23.5t-11.5-36.5v-349l864-1059-1069 925-395-162q-37-14-40-55-2-40 32-59l1664-960q15-9 32-9 20 0 36 11z" />
                     </svg>
-                    Blog
+                    Publicações
                   </Button>
                 </Link>
               </HomepageContent>
             </GridRow>
             <GridRow>
               <HomepageContent>
-                <h2>About Me</h2>
+                <h2>Sobre mim</h2>
                 <p>
-                  Though I am a results-driven front-end developer by day who have converted inactive designs to fully interactive,
-                  well-developed, accessible and standards-based user interfaces. I am completely enthusiast with a full stack environment
-                  and passionate about JavaScript world.
+                  Membro Depositário da Moy Yat Ving Tsun Martial Intelligence, díscipulo de Mestre Julio Camacho...
                 </p>
                 <hr />
-                <h2>Latest Blog</h2>
+                <h2>Últimas publicações</h2>
                 {edges.map(post => (
                   <Article
                     title={post.node.frontmatter.title}

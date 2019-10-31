@@ -16,7 +16,7 @@ export default class AllTagTemplate extends React.PureComponent<PageProps> {
           <Helmet title={`Tags | ${config.siteTitle}`} />
           <Header>
             <Link to="/">{config.siteTitle}</Link>
-            <SectionTitle>Tags</SectionTitle>
+            <SectionTitle>Etiquetas</SectionTitle>
           </Header>
           <Wrapper>
             <Content>

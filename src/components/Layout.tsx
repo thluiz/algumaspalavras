@@ -87,9 +87,17 @@ export class Layout extends React.PureComponent<{}> {
               <GlobalStyle />
               {children}
               <Footer>
-                &copy; {split(data.site.buildTime, '.')[2]} by Majid Hajian. All rights reserved. <br />
-                <a href="https://github.com/mhadaily/gatsby-starter-typescirpt-power-blog">GitHub Repository</a> <br />
-                <span>Last build: {data.site.buildTime}</span>
+                &copy; {split(data.site.buildTime, '.')[2]} por Thiago Silva
+                <br />
+                梅 知 友 士
+                <br />
+                (Moy Chi Yau Si)
+                <br />
+                <br />
+                Todos os direitos Reservados.
+                <br />
+                <a href="https://github.com/thluiz/algumaspalavras">GitHub </a> <br />
+                <span>Última compilação: {data.site.buildTime}</span>
               </Footer>
             </React.Fragment>
           </ThemeProvider>

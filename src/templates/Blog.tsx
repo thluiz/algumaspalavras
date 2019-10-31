@@ -22,10 +22,10 @@ export default class BlogPage extends React.Component<Props> {
 
     return (
       <Layout>
-        <Helmet title={`Blog | ${config.siteTitle}`} />
+        <Helmet title={`Publicações | ${config.siteTitle}`} />
         <Header>
-          <Link to="/">{config.siteTitle}</Link>
-          <SectionTitle uppercase={true}>Latest stories ({totalCount})</SectionTitle>
+          <Link to="/">Início</Link>
+          <SectionTitle uppercase={true}>Últimas Publicações ({totalCount})</SectionTitle>
         </Header>
         <Wrapper>
           <Content>

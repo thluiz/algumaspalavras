@@ -10,32 +10,32 @@ export default class TagTemplate extends React.PureComponent<PageProps> {
   public render() {
     const { posts, tagName } = this.props.pathContext;
     const totalCount = posts ? posts.length : 0;
-    const subline = `${totalCount} post${totalCount === 1 ? '' : 's'} tagged with "${tagName}"`;
+    const subline = `${totalCount} ${totalCount === 1 ? 'publicação' : 'publicações'} marcadas com "${tagName}"`;
 
     return (
       <Layout>
-        <Helmet title={`${'Tags'} | ${config.siteTitle}`} />
+        <Helmet title={`${'Etiquetas'} | ${config.siteTitle}`} />
         <Header>
-          <Link to="/">{config.siteTitle}</Link>
-          <SectionTitle>Tag &ndash; {tagName}</SectionTitle>
+          <Link to="/">Início</Link>
+          <SectionTitle>Etiqueta &ndash; {tagName}</SectionTitle>
           <Subline sectionTitle light={true}>
-            {subline} (See <Link to="/tags">all tags</Link>)
+            {subline} (<Link to="/tags">Todas as etiquetas</Link>)
           </Subline>
         </Header>
         <Wrapper>
           <Content>
             {posts
               ? posts.map((post: any, index) => (
-                  <Article
-                    title={post.frontmatter.title}
-                    date={post.frontmatter.date}
-                    excerpt={post.excerpt}
-                    slug={kebabCase(post.frontmatter.title)}
-                    timeToRead={post.timeToRead}
-                    category={post.frontmatter.category}
-                    key={index}
-                  />
-                ))
+                <Article
+                  title={post.frontmatter.title}
+                  date={post.frontmatter.date}
+                  excerpt={post.excerpt}
+                  slug={kebabCase(post.frontmatter.title)}
+                  timeToRead={post.timeToRead}
+                  category={post.frontmatter.category}
+                  key={index}
+                />
+              ))
               : null}
           </Content>
         </Wrapper>

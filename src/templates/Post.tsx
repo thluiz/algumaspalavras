@@ -43,7 +43,7 @@ export default class PostPage extends React.PureComponent<Props> {
                 <PostContent dangerouslySetInnerHTML={{ __html: post.html }} />
                 {post.frontmatter.tags ? (
                   <Subline>
-                    Tags: &#160;
+                    Etiquetas: &#160;
                     {post.frontmatter.tags.map((tag, i) => (
                       <Link key={i} to={`/tags/${kebabCase(tag)}`}>
                         <strong>{tag}</strong> {i < post.frontmatter.tags.length - 1 ? `, ` : ``}

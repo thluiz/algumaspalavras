@@ -8,7 +8,7 @@ export default {
   siteBanner: '/assets/banner.jpg', // Your image for og:image tag. You can find it in the /static folder
   defaultBg: '/assets/bg.png', // default post background header
   favicon: 'src/favicon.png', // Your image for favicons. You can find it in the /src folder
-  siteDescription: 'Apenas algumas palavras sobre quase tudo', // Your site description
+  siteDescription: 'Apenas algumas palavras sobre kung fu', // Your site description
   author: 'Thiago Luiz Silva', // Author for schemaORGJSONLD
   siteLogo: '/assets/logo.png', // Image for schemaORGJSONLD
 
@@ -19,8 +19,8 @@ export default {
 
   // Manifest and Progress color
   // See: https://developers.google.com/web/fundamentals/web-app-manifest/
-  themeColor: '#E5DCFE',
-  backgroundColor: '#ffffff',
+  themeColor: '#3498DB',
+  backgroundColor: '#2b2e3c',
 
   // Settings for typography.ts
   headerFontFamily: 'Bitter',
