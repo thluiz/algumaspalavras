@@ -69,8 +69,8 @@ export default class IndexPage extends React.Component<PageProps> {
                 <img src={config.siteLogo} />
                 <h1>
                   Olá! Eu sou <br />
-                  Thiago Silva <br />
-                  Moy Chi Yau Si
+                  Thiago Silva, <br />
+                  Moy Chi Yau Si.
                 </h1>
                 <p>Algumas palavras sobre Kung Fu, ou seja, <br /> sobre a Vida, o Universo e Tudo Mais</p>
                 <Link to="/contact">

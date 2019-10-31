@@ -31,7 +31,7 @@ const HeaderWrapper: any = styled.header`
     padding: 4rem 2rem 6rem;
   }
   @media ${media.phone} {
-    padding: 1rem 0.5rem 2rem;
+    padding: 1rem 0.5rem 6rem;
   }
 `;
 
