@@ -6,6 +6,7 @@ interface Frontmatter {
   featureImage?: {
     publicURL: string;
   };
+  excerpt?: string;
 }
 
 export default Frontmatter;

@@ -96,7 +96,7 @@ export default class IndexPage extends React.Component<PageProps> {
             <GridRow>
               <HomepageContent>
                 <h2>Sobre mim</h2>
-                <p>Membro Depositário da Moy Yat Ving Tsun Martial Intelligence, díscipulo do Mestre Senior Julio Camacho. </p>
+                <p>Membro Depositário da Moy Yat Ving Tsun Martial Intelligence, díscipulo de Mestre Julio Camacho...</p>
                 <hr />
                 <h2>Últimas publicações</h2>
                 {edges.map(post => (
@@ -134,6 +134,7 @@ export const IndexQuery = graphql`
             title
             date(formatString: "DD.MM.YYYY")
             category
+            excerpt
           }
           timeToRead
         }

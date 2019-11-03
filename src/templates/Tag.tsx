@@ -26,16 +26,16 @@ export default class TagTemplate extends React.PureComponent<PageProps> {
           <Content>
             {posts
               ? posts.map((post: any, index) => (
-                <Article
-                  title={post.frontmatter.title}
-                  date={post.frontmatter.date}
-                  excerpt={post.excerpt}
-                  slug={kebabCase(post.frontmatter.title)}
-                  timeToRead={post.timeToRead}
-                  category={post.frontmatter.category}
-                  key={index}
-                />
-              ))
+                  <Article
+                    title={post.frontmatter.title}
+                    date={post.frontmatter.date}
+                    excerpt={post.frontmatter.excerpt || post.excerpt}
+                    slug={kebabCase(post.frontmatter.title)}
+                    timeToRead={post.timeToRead}
+                    category={post.frontmatter.category}
+                    key={index}
+                  />
+                ))
               : null}
           </Content>
         </Wrapper>

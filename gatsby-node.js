@@ -113,6 +113,7 @@ exports.createPages = ({ actions, graphql }) => {
             title
             category
             tags
+            excerpt
           }
           timeToRead
         }
