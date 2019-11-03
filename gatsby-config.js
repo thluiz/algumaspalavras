@@ -31,7 +31,7 @@ module.exports = {
         path: `${__dirname}/blog`,
       },
     },
-    {
+    /*{
       resolve: `gatsby-plugin-google-tagmanager`,
       options: {
         id: config.Google_Tag_Manager_ID,
@@ -39,7 +39,7 @@ module.exports = {
         // Defaults to false meaning GTM will only be loaded in production.
         includeInDevelopment: false,
       },
-    },
+    }, */
     {
       resolve: 'gatsby-transformer-remark',
       options: {

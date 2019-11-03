@@ -48,7 +48,7 @@ export class Signature extends React.PureComponent<Props> {
     return (
       <SignatureWrapper>
         <AuthorImageContent>
-          <AuthorPhoto src={config.authorPhoto} alt={config.authorPhotoSubtitle} />
+          <AuthorPhoto src={config.authorPhoto} alt={config.authorPhotoSubtitle} title={config.authorPhotoSubtitle} />
         </AuthorImageContent>
         <FooterContent>
           Discípulo de Mestre Julio Camacho,
