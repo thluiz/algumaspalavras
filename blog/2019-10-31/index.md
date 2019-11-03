@@ -2,21 +2,21 @@
 date: "2019-10-31"
 title: "Etimologia do termo Kung Fu"
 category: "Kung Fu"
-tags: ['Kung Fu', 'ETD', 'etimologia']
+tags: ['Kung Fu', 'ETD', 'Etimologia']
 featureImage: ./etd-20191028.png
 excerpt: "Algumas palavras sobre a etimologia do termo Kung Fu 功夫 a partir do ETD em 2019-10-28"
 ---
 
-No Encontro Temático à Distância dessa semana, Matheus Azevedo propôs inocentemente que se falasse sobre Kung Fu (功夫), um tema que daria uma vida inteira de conversas, Si Fu optou por começar sobre a etimologia do termo pelos seus dois ideogramas:
+No Encontro Temático à Distância dessa semana, Matheus Azevedo propôs inocentemente que se falasse sobre Kung Fu ([功夫](https://www.mdbg.net/chinese/dictionary?page=chardict&cdcanoce=0&cdqchi=%E5%8A%9F%E5%A4%AB)), um tema que daria uma vida inteira de conversas, [Si Fu](http://mestrejuliocamacho.com "Mestre Julio Camacho") optou por começar sobre a etimologia do termo pelos seus dois ideogramas:
 
 ![Kung Fu - 功夫](./kungfu.png)
 
-O primeiro ideograma 功 (gōng em mandarim e gung1 em cantonês - lido erroneamente como "kungui"), é formado por dois outros: 工 (gōng - mesma leitura),  faz referência ao trabalho propriamente dito ou ao esfoço, muitas vezes intelectual para executar uma tarefa e 力 (lì/lik6) que pode ser traduzido literalmente como energia ou poder, remetendo ao desenho de um arado de terra.
+O primeiro ideograma [功](https://www.mdbg.net/chinese/dictionary?cdqchi=%E5%8A%9F) (gōng em mandarim e gung1 em cantonês - lido erroneamente como "kungui"), é formado por dois outros: [工](https://www.mdbg.net/chinese/dictionary?cdqchi=%E5%B7%A5) (gōng - mesma leitura),  faz referência ao trabalho propriamente dito ou ao esforço, muitas vezes intelectual, para executar uma tarefa e [力](https://www.mdbg.net/chinese/dictionary?cdqchi=%E5%8A%9B) (lì/lik6) que pode ser traduzido literalmente como energia, remetendo ao desenho de um arado de terra. A junção dos dois passa a ideia de uma realização por mérito, um bom resultado por meio de um trabalho árduo ou dedicado.
 
-O segundo ideograma é 天 (fū / fu1), é formado por 大 (dài/daai6) que seria uma grande pessoa com uma presilha nos cabelos em referência ao fato de que os homens maduros (ou casados) prendiam o cabelo na china antiga.
+O segundo ideograma é [天](https://www.mdbg.net/chinese/dictionary?cdqchi=%E5%A4%A9)  (fū / fu1), é formado por [大](https://www.mdbg.net/chinese/dictionary?cdqchi=%E5%A4%A7) (dài/daai6) que seria uma grande pessoa e com uma presilha nos cabelos em referência à como os homens casados (ou maduros) prendiam o cabelo na china antiga.
 
 ![Terra arada para plantio, município de Avaré, São Paulo, Brasil | Autor: José Reynaldo da Fonseca|Licença= self2,GFDL,cc-by-2.5 ](./Arado01.JPG)
 
-Logo, Kung Fu poderia ser lido como o processo de amadurecimento por meio do trabalho. Sendo notável que não haja nada relativo a artes marciais ao analisa-la por seus ideogramas. Si Fu várias vezes comenta que é possível desenvolver Kung Fu em qualquer atividade, mas que o combate, dada a premência de morte, é o meio eficiente.
+Logo, Kung Fu poderia ser lido como o processo de amadurecimento por meio do trabalho (árduo). Sendo notável que não haja nada relativo a artes marciais quando analisado por seus ideogramas. [Si Fu](http://mestrejuliocamacho.com "Mestre Julio Camacho") sempre nos orienta a desenvolver Kung Fu em qualquer atividade. Mas porque então o termo é tão associado ao combate? Um dos motivos é a premência de morte, que também terá algumas palavras aqui no momento oportuno. 
 
 E você? quer desenvolver seu próprio Kung Fu? Procure um dos núcleos da [Moy Yat Ving Tsun](http://www.myvt-rio.org/) na sua cidade. 
