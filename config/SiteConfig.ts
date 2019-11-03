@@ -14,6 +14,12 @@ export default {
   authorPhotoSubtitle: 'Mestre Julio Camacho (direita) e Thiago Silva (esquerda) - Foto por Carmen Maris',
   siteLogo: '/assets/logo.png', // Image for schemaORGJSONLD
 
+  cmjloLogo: '/assets/logo-cla-moy-jo-lei-ou.jpg',
+  cmjloLogoTitle: '',
+
+  cmjloPhoto: '/assets/logo-MYVTMI-cla-mjlo.png',
+  cmjloPhotoTitle: '',
+
   // siteFBAppID: '123456789', // Facebook App ID - Optional
   userTwitter: '@thluiz', // Twitter Username - Optional
   ogSiteName: 'thluiz', // Facebook Site Name - Optional
@@ -21,8 +27,8 @@ export default {
 
   // Manifest and Progress color
   // See: https://developers.google.com/web/fundamentals/web-app-manifest/
-  themeColor: '#3498DB',
-  backgroundColor: '#2b2e3c',
+  themeColor: '#e6ffe6',
+  backgroundColor: '#001a00',
 
   // Settings for typography.ts
   headerFontFamily: 'Bitter',

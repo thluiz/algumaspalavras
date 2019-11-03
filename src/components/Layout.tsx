@@ -5,6 +5,7 @@ import theme from '../../config/Theme';
 import { media } from '../utils/media';
 import split from 'lodash/split';
 import './layout.scss';
+import config from '../../config/SiteConfig';
 
 const GlobalStyle = createGlobalStyle`
   ::selection {
@@ -61,17 +62,94 @@ const GlobalStyle = createGlobalStyle`
 `;
 
 const Footer = styled.footer`
+  flex-direction: row;
+  align-items: flex-start;
+  flex-grow: 1;
   text-align: center;
   padding: 3rem 0;
   span {
     font-size: 0.75rem;
   }
+  @media ${media.display} {
+    display: flex;
+  }
+  @media ${media.tablet} {
+    display: none;
+  }
+  @media ${media.phone} {
+    display: none;
+  }
+  img {
+    max-height: 10rem;
+  }
 `;
 
-export class Layout extends React.PureComponent<{}> {
-  public render() {
-    const { children } = this.props;
+const FooterContent = styled.div`
+  flex: 1;
+  text-align: center;
+`;
 
+const FooterCentralContent = styled(FooterContent)`
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+`;
+
+const FooterLeftContent = styled(FooterContent)`
+  padding-left: 2rem;
+`;
+
+const FooterRightContent = styled(FooterContent)`
+  padding-right: 2rem;
+`;
+
+const FooterMobile = styled.footer`
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-grow: 1;
+  text-align: center;
+  padding: 2rem 0;
+  @media ${media.display} {
+    display: none;
+  }
+  @media ${media.tablet} {
+    display: flex;
+  }
+  @media ${media.phone} {
+    display: block;
+  }
+`;
+
+const FooterMobileContent = styled.div`
+  flex: 1;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+  @media ${media.tablet} {
+    display: block;
+  }
+  @media ${media.phone} {
+    display: block;
+  }
+  @media ${media.display} {
+    display: none;
+  }
+  img {
+    max-height: 10rem;
+  }
+`;
+
+const Content = styled.div`
+  p {
+    display: block;
+    padding: 0;
+    margin: 0;
+  }
+`;
+
+class SiteLicense extends React.PureComponent<{}> {
+  public render() {
     return (
       <StaticQuery
         query={graphql`
@@ -82,27 +160,62 @@ export class Layout extends React.PureComponent<{}> {
           }
         `}
         render={data => (
-          <ThemeProvider theme={theme}>
-            <React.Fragment>
-              <GlobalStyle />
-              {children}
-              <Footer>
-                &copy; {split(data.site.buildTime, '.')[2]} por Thiago Silva
-                <br />
-                梅 知 友 士
-                <br />
-                (Moy Chi Yau Si)
-                <br />
-                <br />
-                Todos os direitos Reservados.
-                <br />
-                <a href="https://github.com/thluiz/algumaspalavras">GitHub </a> <br />
-                <span>Última compilação: {data.site.buildTime}</span>
-              </Footer>
-            </React.Fragment>
-          </ThemeProvider>
+          <Content>
+            <p>
+              &copy; {split(data.site.buildTime, '.')[2]} por Thiago Silva
+              <br />
+              梅 知 友 士
+              <br />
+              Moy Chi Yau Si
+            </p>
+            <p>Todos os direitos Reservados.</p>
+            <p>
+              <a href="https://github.com/thluiz/algumaspalavras">GitHub</a>
+            </p>
+            <p>Última compilação: {data.site.buildTime}</p>
+          </Content>
         )}
       />
+    );
+  }
+}
+
+export class Layout extends React.PureComponent<{}> {
+  public render() {
+    const { children } = this.props;
+
+    return (
+      <ThemeProvider theme={theme}>
+        <React.Fragment>
+          <GlobalStyle />
+          {children}
+          <Footer>
+            <FooterLeftContent>
+              <img src={config.cmjloPhoto} alt={config.cmjloPhotoTitle} title={config.cmjloPhotoTitle} />
+            </FooterLeftContent>
+            <FooterCentralContent>
+              <SiteLicense />
+            </FooterCentralContent>
+            <FooterRightContent>
+              <img src={config.cmjloLogo} alt={config.cmjloLogoTitle} title={config.cmjloLogoTitle} />
+            </FooterRightContent>
+          </Footer>
+
+          <FooterMobile>
+            <FooterMobileContent>
+              <SiteLicense />
+            </FooterMobileContent>
+          </FooterMobile>
+          <FooterMobile>
+            <FooterMobileContent>
+              <img src={config.cmjloPhoto} alt={config.cmjloPhotoTitle} title={config.cmjloPhotoTitle} />
+            </FooterMobileContent>
+            <FooterMobileContent>
+              <img src={config.cmjloLogo} alt={config.cmjloLogoTitle} title={config.cmjloLogoTitle} />
+            </FooterMobileContent>
+          </FooterMobile>
+        </React.Fragment>
+      </ThemeProvider>
     );
   }
 }
