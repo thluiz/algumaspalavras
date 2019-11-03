@@ -3,7 +3,9 @@ interface Frontmatter {
   title: string;
   category: string;
   tags: string[];
-  banner?: string;
+  featureImage?: {
+    publicURL: string;
+  };
 }
 
 export default Frontmatter;

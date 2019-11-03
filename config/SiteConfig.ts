@@ -10,6 +10,8 @@ export default {
   favicon: 'src/favicon.png', // Your image for favicons. You can find it in the /src folder
   siteDescription: 'Apenas algumas palavras sobre kung fu', // Your site description
   author: 'Thiago Luiz Silva', // Author for schemaORGJSONLD
+  authorPhoto: '/assets/sifu-e-cys.jpeg', // Image Signature, used in posts-footers
+  authorPhotoSubtitle: 'Mestre Julio Camacho (direita) e Thiago Silva (esquerda) - Foto por Carmen Maris',
   siteLogo: '/assets/logo.png', // Image for schemaORGJSONLD
 
   // siteFBAppID: '123456789', // Facebook App ID - Optional

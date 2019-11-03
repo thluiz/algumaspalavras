@@ -72,7 +72,9 @@ export default class IndexPage extends React.Component<PageProps> {
                   Thiago Silva, <br />
                   Moy Chi Yau Si.
                 </h1>
-                <p>Algumas palavras sobre Kung Fu, ou seja, <br /> sobre a Vida, o Universo e Tudo Mais</p>
+                <p>
+                  Algumas palavras sobre Kung Fu, ou seja, <br /> sobre a Vida, o Universo e Tudo Mais
+                </p>
                 <Link to="/contact">
                   <Button big={true}>
                     <svg width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
@@ -94,9 +96,7 @@ export default class IndexPage extends React.Component<PageProps> {
             <GridRow>
               <HomepageContent>
                 <h2>Sobre mim</h2>
-                <p>
-                  Membro Depositário da Moy Yat Ving Tsun Martial Intelligence, díscipulo de Mestre Julio Camacho...
-                </p>
+                <p>Membro Depositário da Moy Yat Ving Tsun Martial Intelligence, díscipulo do Mestre Senior Julio Camacho. </p>
                 <hr />
                 <h2>Últimas publicações</h2>
                 {edges.map(post => (

@@ -3,14 +3,21 @@ import Helmet from 'react-helmet';
 import { Link, graphql } from 'gatsby';
 import styled from 'styled-components';
 import kebabCase from 'lodash/kebabCase';
-import { Layout, Wrapper, Header, Subline, SEO, PrevNext, SectionTitle, Content } from '../components';
+import { Layout, Wrapper, Header, Subline, SEO, PrevNext, SectionTitle, Content, Signature } from '../components';
 import config from '../../config/SiteConfig';
 import '../utils/prismjs-theme.css';
 import PathContext from '../models/PathContext';
 import Post from '../models/Post';
+import { media } from '../utils/media';
 
 const PostContent = styled.div`
-  margin-top: 4rem;
+  margin-top: 3rem;
+  @media ${media.tablet} {
+    margin-top: 1.5rem;
+  }
+  @media ${media.phone} {
+    margin-top: 1rem;
+  }
 `;
 
 interface Props {
@@ -30,17 +37,18 @@ export default class PostPage extends React.PureComponent<Props> {
           <>
             <SEO postPath={post.fields.slug} postNode={post} postSEO />
             <Helmet title={`${post.frontmatter.title} | ${config.siteTitle}`} />
-            <Header banner={post.frontmatter.banner}>
+            <Header banner={post.frontmatter.featureImage ? post.frontmatter.featureImage.publicURL : '/assets/bg/word-cloud.png'}>
               <Link to="/">{config.siteTitle}</Link>
               <SectionTitle>{post.frontmatter.title}</SectionTitle>
               <Subline light={true}>
-                {post.frontmatter.date} &mdash; {post.timeToRead} Min Read &mdash; In{' '}
+                {post.frontmatter.date} &mdash; {post.timeToRead} Min Read &mdash; em{' '}
                 <Link to={`/categories/${kebabCase(post.frontmatter.category)}`}>{post.frontmatter.category}</Link>
               </Subline>
             </Header>
             <Wrapper>
               <Content>
                 <PostContent dangerouslySetInnerHTML={{ __html: post.html }} />
+                <Signature />
                 {post.frontmatter.tags ? (
                   <Subline>
                     Etiquetas: &#160;
@@ -73,7 +81,10 @@ export const postQuery = graphql`
         date(formatString: "DD.MM.YYYY")
         category
         tags
-        banner
+        featureImage {
+          publicURL
+          relativePath
+        }
       }
       timeToRead
     }

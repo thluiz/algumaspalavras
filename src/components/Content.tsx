@@ -4,7 +4,7 @@ import { media } from '../utils/media';
 export const Content = styled.div`
   box-shadow: 0 4px 120px rgba(0, 0, 0, 0.1);
   border-radius: 1rem;
-  padding: 2rem 4rem;
+  padding: 0 4rem 2rem 4rem;
   background-color: ${props => props.theme.colors.bg};
   z-index: 9000;
   margin-top: -4rem;
@@ -25,9 +25,9 @@ export const Content = styled.div`
     }
   }
   @media ${media.tablet} {
-    padding: 3rem 3rem;
+    padding: 0 3rem 3rem 3rem;
   }
   @media ${media.phone} {
-    padding: 2rem 1.5rem;
+    padding: 0 1.5rem 2rem 1.5rem;
   }
 `;

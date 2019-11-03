@@ -73,6 +73,8 @@
   },
   "dependencies": {
     "gatsby-plugin-google-tagmanager": "^2.0.5",
+    "gatsby-plugin-sharp": "^2.2.36",
+    "gatsby-remark-images": "^3.1.28",
     "sharp": "^0.23.2"
   },
   "engines": {

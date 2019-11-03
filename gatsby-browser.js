@@ -1,10 +1,10 @@
 export const onServiceWorkerUpdateFound = () => {
     const answer = window.confirm(
-        `Surgiram mais algumas palavras... ` +
-        `Deseja atualizar a página para obter a última versão?`
+        `Mais algumas palavras publicadas... \r\n` +
+        `Deseja atualizar a página para obter as últimas atualizações?`
     )
 
     if (answer === true) {
-        window.location.reload()
+        window.location.reload(true);
     }
 }
