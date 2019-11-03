@@ -2,11 +2,12 @@
 date: "2019-10-31"
 title: "Etimologia do termo Kung Fu"
 category: "Kung Fu"
-tags: ['Kung Fu', 'etd', 'etimologia']
+tags: ['Kung Fu', 'ETD', 'etimologia']
 featureImage: ./etd-20191028.png
+excerpt: "Algumas palavras sobre a etimologia do termo Kung Fu 功夫"
 ---
 
-No Encontro Temático à Distância dessa semana, Matheus Azevedo propôs inocentemente que se falasse sobre Kung Fu, um tema que daria uma vida inteira de conversas, Si Fu optou por começar sobre a etimologia do termo pelos seus dois ideogramas:
+No Encontro Temático à Distância dessa semana, Matheus Azevedo propôs inocentemente que se falasse sobre Kung Fu (功夫), um tema que daria uma vida inteira de conversas, Si Fu optou por começar sobre a etimologia do termo pelos seus dois ideogramas:
 
 ![Kung Fu - 功夫](./kungfu.png)
 
