@@ -2,7 +2,7 @@
 date: "2019-10-31"
 title: "Etimologia do termo Kung Fu"
 category: "Kung Fu"
-tags: ['Kung Fu', 'ETD', 'Etimologia']
+tags: ['Kung Fu', 'ETD', 'Etimologia', '功夫']
 featureImage: ./etd-20191028.png
 excerpt: "Algumas palavras sobre a etimologia do termo Kung Fu 功夫 a partir do ETD em 2019-10-28"
 ---

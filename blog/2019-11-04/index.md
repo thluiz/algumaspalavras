@@ -2,7 +2,7 @@
 date: "2019-11-04"
 title: "Inversão de Valores"
 category: "Historietas"
-tags: ['Vida Kung Fu', 'Saam Faat']
+tags: ['Vida Kung Fu', 'Sam Faat', '心法']
 featureImage: ./armando-ascorve-morales-XpmsZmAMf_g-unsplash-crop.jpg
 excerpt: "Algumas palavras sobre uma historieta que ouvi do Si Fu sobre o processo de inversão de valores"
 ---
@@ -15,39 +15,41 @@ Certa vez [Si Fu](http://mestrejuliocamacho.com "Mestre Julio Camacho")  nos con
 ![Só o medalhão do filet](./wesual-click-DxJvLtab4ak-unsplash-crop.jpg "https://unsplash.com/@wesual")
 
  
- _Intrigada a menina perguntou: __"Mamãe, o que fazemos com toda essa carne que sobra?"___
+*Intrigada a menina perguntou: __"Mamãe, o que fazemos com toda essa carne que sobra?"__*
 
- _— __"Ora... jogamos fora! O que fazer com isso?"__, respondeu a mãe sem entender onde a conversa ia levar._
+ *— __"Ora... jogamos fora! O que fazer com isso?"__, respondeu a mãe sem entender onde a conversa ia levar.*
 
- _— __"Fora?! mas essa carne tem até aquelas gordurinhas que eu gosto..."__, comentou a menina indignada._
+*— __"Fora?! mas essa carne tem até aquelas gordurinhas que eu gosto..."__, comentou a menina indignada.*
 
- _— __"É uma tradição de nossa família, comemos apenas a melhor parte"__, respondeu a mãe cheia de razão enquanto empinava o nariz._
+ *— __"É uma tradição de nossa família, comemos apenas a melhor parte"__, respondeu a mãe cheia de razão enquanto empinava o nariz.*
  
- _Mais alguns cortes, alguns quilos de carne ao lixo a menina inquieta tornou a pergutar:_
+ *Mais alguns cortes, alguns quilos de carne ao lixo a menina inquieta tornou a pergutar:*
 
- _— __"Mas que tradição é essa? nunca ouvi falar..."___
+ *— __"Mas que tradição é essa? nunca ouvi falar..."__*
 
- _A mãe interrompeu rapidamente:_
+ *A mãe interrompeu rapidamente:*
 
- _— __"Diacho, Menina! Coisa da sua Avó, sempre fizemos assim."___
+ *— __"Diacho, Menina! Coisa da sua Avó, sempre fizemos assim."__*
 
 ![Visitando a Vovó](./annie-spratt-s0eeLwNxcns-unsplash-cropped.jpg "https://unsplash.com/@anniespratt")
 
-_Dias se passaram a menina ficava ainda mais incomodada e foi até a casa dos Avós impaciente, sentiu o cheiro do almoço, correu para a cozinha e saiu perguntando:_ 
+*Dias se passaram a menina ficava ainda mais incomodada e foi até a casa dos Avós impaciente, sentiu o cheiro do almoço, correu para a cozinha e saiu perguntando:*
 
-_— __"Vovó! Que história é essa de que na nossa família usamos apenas o miolo do filet para fazer as refeições???"___
+*— __"Vovó! Que história é essa de que na nossa família usamos apenas o miolo do filet para fazer as refeições???"__*
 
-_— __"Que susto, Menina! Eu estou bem e vc? Obrigado por perguntar? Também estou com saudades... "__ A Avó nem olhou para a menina, seguindo concentrada no seu preparo._
+*— __"Que susto, Menina! Eu estou bem e vc? Obrigado por perguntar? Também estou com saudades... "__ A Avó nem olhou para a menina, seguindo concentrada no seu preparo.*
 
-_— __"Desculpe, vovó...estou bem sim, também com saudades... é que minha mãe falou que é tradição da nossa família cortar a carne toda para só preparar os pratos com o miolo"__ - respondeu a menina olhando para baixo encabulada_
+*— __"Desculpe, vovó...estou bem sim, também com saudades... é que minha mãe falou que é tradição da nossa família cortar a carne toda para só preparar os pratos com o miolo"__ - respondeu a menina olhando para baixo encabulada*
 
-_— __"Como assim?"__ - A Avó parou o preparo para dar atenção à menina_ 
+*— __"Como assim?"__ - A Avó parou o preparo para dar atenção à menina*
 
-_— __"Mamãe estava preparando carne, cortou toda a parte que estava em volta e jogou fora para ficar apenas com o miolo..."___
+*— __"Mamãe estava preparando carne, cortou toda a parte que estava em volta e jogou fora para ficar apenas com o miolo..."__*
 
-_— __"Ah... entendi! Quando chegamos na cidade éramos muito pobres e tínhamos que catar lixo e restos para sobreviver. Como a carne podre e suja, nós cortavámos a parte externa para tentar salvar o miolo que ainda poderia ser comido..."___
+*— __"Ah... entendi! Quando chegamos na cidade éramos muito pobres e tínhamos que catar lixo e restos para sobreviver. Como a carne podre e suja, nós cortavámos a parte externa para tentar salvar o miolo que ainda poderia ser comido..."__*
 
-A história vai até aí. Dado o título já é possível concluir a mensagem principal dela. Colocando uma "lente Kung Fu" fica claro o quanto podemos deturpar um processo ao executá-lo 
+<hr />
+
+A história vai até aí. Dado o título já é possível concluir a mensagem principal dela. Colocando uma "Lente Kung Fu ([功夫](https://algumaspalavras.com.br/etimologia-do-termo-kung-fu))" fica claro o quanto podemos deturpar um processo ao executá-lo 
 sem atentar para seu [念頭](https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=%E5%BF%B5%E9%A0%AD) (niàntou / nim6tau4). 
 
 Mesmo no mais simples procedimento podemos estar condenando todas gerações futuras jogar a "gordurinha boa" no lixo traindo todo o objetivo original. Aliás, [Si Fu](http://mestrejuliocamacho.com "Mestre Julio Camacho")  sempre comenta que Traição e Tradição tem a mesma raíz etimológica, mas deixaremos algumas palavras sobre isso no futuro.
