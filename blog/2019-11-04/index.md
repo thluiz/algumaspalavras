@@ -45,7 +45,7 @@ Certa vez [Si Fu](http://mestrejuliocamacho.com "Mestre Julio Camacho")  nos con
 
 *— __"Mamãe estava preparando carne, cortou toda a parte que estava em volta e jogou fora para ficar apenas com o miolo..."__*
 
-*— __"Ah... entendi! Quando chegamos na cidade éramos muito pobres e tínhamos que catar lixo e restos para sobreviver. Como a carne podre e suja, nós cortavámos a parte externa para tentar salvar o miolo que ainda poderia ser comido..."__*
+*— __"Hum... tudo errado..."__ - Comentou a idosa para si — __Quando chegamos na cidade éramos muito pobres e tínhamos que catar lixo e restos para sobreviver. Como a carne era podre ou suja, nós cortavámos a parte externa para tentar salvar o miolo que ainda poderia ser comido..."__*
 
 <hr />
 
