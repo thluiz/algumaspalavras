@@ -10,7 +10,7 @@ export default class ContactPage extends React.Component<PageProps> {
   public render() {
     return (
       <Layout>
-        <Helmet title={`Contact | ${config.siteTitle}`} />
+        <Helmet title={`Contatos | ${config.siteTitle}`} />
         <Header>
           <Link to="/">Início</Link>
           <SectionTitle uppercase={true}>Contatos</SectionTitle>

@@ -11,3 +11,5 @@ export * from './Content';
 export * from './Title';
 export * from './Pagination';
 export * from './Signature';
+export * from './WrapperClassification';
+export * from './ContentClassification';

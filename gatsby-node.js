@@ -38,8 +38,10 @@ const getPostsByType = (posts, classificationType) => {
 const createClassificationPages = ({ createPage, posts, postsPerPage, numPages }) => {
   const classifications = [
     {
-      singularName: 'category',
-      pluralName: 'categories',
+      singularTag: 'category',
+      singularName: 'categoria',
+      pluralTag: 'categories',
+      pluralName: 'categorias',
       template: {
         part: path.resolve(`src/templates/Category.tsx`),
         all: path.resolve(`src/templates/AllCategory.tsx`),
@@ -47,8 +49,10 @@ const createClassificationPages = ({ createPage, posts, postsPerPage, numPages }
       postsByClassificationNames: getPostsByType(posts, 'category'),
     },
     {
-      singularName: 'tag',
-      pluralName: 'tags',
+      singularTag: 'tag',
+      singularName: 'etiqueta',
+      pluralTag: 'tags',
+      pluralName: 'etiquetas',
       template: {
         part: path.resolve(`src/templates/Tag.tsx`),
         all: path.resolve(`src/templates/AllTag.tsx`),
@@ -64,7 +68,7 @@ const createClassificationPages = ({ createPage, posts, postsPerPage, numPages }
                  path: _.kebabCase(`/${classification.pluralName}`),
                  component: classification.template.all,
                  context: {
-                   [`${classification.pluralName}`]: names.sort(),
+                   [`${classification.pluralTag}`]: names.sort(),
                  },
                });
 
@@ -75,7 +79,7 @@ const createClassificationPages = ({ createPage, posts, postsPerPage, numPages }
                    component: classification.template.part,
                    context: {
                      posts: postsByName,
-                     [`${classification.singularName}Name`]: name,
+                     [`${classification.singularTag}Name`]: name,
                    },
                  });
     });
@@ -131,7 +135,7 @@ exports.createPages = ({ actions, graphql }) => {
     Array.from({ length: numPages })
          .forEach((_, i) => {
            createPage({
-                        path: i === 0 ? `/blog` : `/blog/${i + 1}`,
+                        path: i === 0 ? `/publicacoes` : `/${i + 1}`,
                         component: path.resolve('./src/templates/Blog.tsx'),
                         context: {
                           limit: postsPerPage,
@@ -142,14 +146,14 @@ exports.createPages = ({ actions, graphql }) => {
                       });
          });
 
-    createClassificationPages({ createPage, posts, postsPerPage, numPages });
+    
 
     posts.forEach(({ node }, index) => {
       const next = index === 0 ? null : posts[index - 1].node;
       const prev = index === posts.length - 1 ? null : posts[index + 1].node;
 
       createPage({
-                   path: `/blog/${_.kebabCase(node.frontmatter.title)}`,
+                   path: `/${_.kebabCase(node.frontmatter.title)}`,
                    component: postTemplate,
                    context: {
                      slug: _.kebabCase(node.frontmatter.title),
@@ -158,5 +162,7 @@ exports.createPages = ({ actions, graphql }) => {
                    },
                  });
     });
+
+    createClassificationPages({ createPage, posts, postsPerPage, numPages });
   });
 };

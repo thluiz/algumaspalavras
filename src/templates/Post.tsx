@@ -41,8 +41,8 @@ export default class PostPage extends React.PureComponent<Props> {
               <Link to="/">{config.siteTitle}</Link>
               <SectionTitle>{post.frontmatter.title}</SectionTitle>
               <Subline light={true}>
-                {post.frontmatter.date} &mdash; {post.timeToRead} Min Read &mdash; em{' '}
-                <Link to={`/categories/${kebabCase(post.frontmatter.category)}`}>{post.frontmatter.category}</Link>
+                {post.frontmatter.date} &mdash; {post.timeToRead} minuto{post.timeToRead > 1 ? 's' : ''} para leitura &mdash; em{' '}
+                <Link to={`/categorias/${kebabCase(post.frontmatter.category)}`}>{post.frontmatter.category}</Link>
               </Subline>
             </Header>
             <Wrapper>
@@ -53,7 +53,7 @@ export default class PostPage extends React.PureComponent<Props> {
                   <Subline>
                     Etiquetas: &#160;
                     {post.frontmatter.tags.map((tag, i) => (
-                      <Link key={i} to={`/tags/${kebabCase(tag)}`}>
+                      <Link key={i} to={`/etiquetas/${kebabCase(tag)}`}>
                         <strong>{tag}</strong> {i < post.frontmatter.tags.length - 1 ? `, ` : ``}
                       </Link>
                     ))}

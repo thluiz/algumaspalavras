@@ -2,7 +2,7 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import { Link } from 'gatsby';
 import kebabCase from 'lodash/kebabCase';
-import { Layout, Wrapper, Header, SectionTitle, Content, Title } from '../components';
+import { Layout, Wrapper, Header, SectionTitle, ContentClassification, Title } from '../components';
 
 import config from '../../config/SiteConfig';
 import PageProps from '../models/PageProps';
@@ -13,19 +13,19 @@ export default class AllTagTemplate extends React.PureComponent<PageProps> {
     if (tags) {
       return (
         <Layout>
-          <Helmet title={`Tags | ${config.siteTitle}`} />
+          <Helmet title={`Etiquetas | ${config.siteTitle}`} />
           <Header>
-            <Link to="/">{config.siteTitle}</Link>
+            <Link to="/">Início</Link>
             <SectionTitle>Etiquetas</SectionTitle>
           </Header>
           <Wrapper>
-            <Content>
+            <ContentClassification>
               {tags.map((tag, index: number) => (
                 <Title key={index}>
-                  <Link to={`/tags/${kebabCase(tag)}`}>{tag}</Link>
+                  <Link to={`/etiquetas/${kebabCase(tag)}`}>{tag}</Link>
                 </Title>
               ))}
-            </Content>
+            </ContentClassification>
           </Wrapper>
         </Layout>
       );

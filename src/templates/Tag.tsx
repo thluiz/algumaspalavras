@@ -19,7 +19,7 @@ export default class TagTemplate extends React.PureComponent<PageProps> {
           <Link to="/">Início</Link>
           <SectionTitle>Etiqueta &ndash; {tagName}</SectionTitle>
           <Subline sectionTitle light={true}>
-            {subline} (<Link to="/tags">Todas as etiquetas</Link>)
+            {subline} (<Link to="/etiquetas">Todas as etiquetas</Link>)
           </Subline>
         </Header>
         <Wrapper>

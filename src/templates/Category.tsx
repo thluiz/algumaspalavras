@@ -19,7 +19,7 @@ export default class Category extends React.PureComponent<PageProps> {
           <Link to="/">Início</Link>
           <SectionTitle>Categoria &ndash; {categoryName}</SectionTitle>
           <Subline sectionTitle light={true}>
-            {subline} (<Link to="/categories">todas as categorias</Link>)
+            {subline} (<Link to="/categorias">todas as categorias</Link>)
           </Subline>
         </Header>
         <Wrapper>
