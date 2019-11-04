@@ -9,7 +9,7 @@ excerpt: "Algumas palavras sobre uma historieta que ouvi do Si Fu sobre o proces
 
 Certa vez [Si Fu](http://mestrejuliocamacho.com "Mestre Julio Camacho")  nos contou a seguinte historieta: 
 
- _Certa vez uma menina curiosa de uma família muito rica estava auxiliando sua mãe no preparo do jantar. Sua mãe pegava um Filet Mignon e ia "descascando" a carne até sobrar apenas seu miolo com um vermelho bem vivo e fresco._ 
+ _Uma menina curiosa de uma família muito rica estava auxiliando sua mãe no preparo do jantar. Sua mãe pegava um Filet Mignon e ia "descascando" a carne até sobrar apenas seu miolo com um vermelho bem vivo e fresco._ 
 
 
 ![Só o medalhão do filet](./wesual-click-DxJvLtab4ak-unsplash-crop.jpg "https://unsplash.com/@wesual")

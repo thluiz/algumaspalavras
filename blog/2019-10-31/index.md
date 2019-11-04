@@ -7,7 +7,7 @@ featureImage: ./etd-20191028.png
 excerpt: "Algumas palavras sobre a etimologia do termo Kung Fu 功夫 a partir do ETD em 2019-10-28"
 ---
 
-No Encontro Temático à Distância dessa semana, Matheus Azevedo propôs inocentemente que se falasse sobre Kung Fu ([功夫](https://www.mdbg.net/chinese/dictionary?page=chardict&cdcanoce=0&cdqchi=%E5%8A%9F%E5%A4%AB)), um tema que daria uma vida inteira de conversas, [Si Fu](http://mestrejuliocamacho.com "Mestre Julio Camacho") optou por começar sobre a etimologia do termo pelos seus dois ideogramas:
+No Encontro Temático à Distância dessa semana, Matheus Azevedo propôs que se falasse sobre Kung Fu ([功夫](https://www.mdbg.net/chinese/dictionary?page=chardict&cdcanoce=0&cdqchi=%E5%8A%9F%E5%A4%AB)), um tema que daria uma vida inteira de conversas, [Si Fu](http://mestrejuliocamacho.com "Mestre Julio Camacho") optou por começar sobre a etimologia do termo pelos seus dois ideogramas:
 
 ![Kung Fu - 功夫](./kungfu.png)
 
