@@ -95,7 +95,13 @@ export default class IndexPage extends React.Component<PageProps> {
             <GridRow>
               <HomepageContent>
                 <h2>Sobre mim</h2>
-                <p>Membro Depositário da Moy Yat Ving Tsun Martial Intelligence, discípulo de Mestre Sênior Julio Camacho.</p>
+                <p>
+                  Membro Depositário da Moy Yat Ving Tsun Martial Intelligence, discípulo de{' '}
+                  <a href="http://mestrejuliocamacho.com" target="_blank">
+                    Mestre Sênior Julio Camacho
+                  </a>
+                  .
+                </p>
                 <hr />
                 <h2>Últimas publicações</h2>
                 {edges.map(post => (

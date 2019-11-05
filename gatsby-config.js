@@ -44,7 +44,8 @@ module.exports = {
     }, */
     {
       resolve: 'gatsby-transformer-remark',
-      options: {
+      options: {        
+        footnotes: true,
         plugins: [
           {
             resolve: 'gatsby-remark-external-links',
@@ -59,6 +60,7 @@ module.exports = {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 1200,
+              showCaptions: false
             },
           }
         ],

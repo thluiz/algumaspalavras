@@ -17,7 +17,6 @@ const Wrapper = styled.div`
 
 const Prev = styled.div`
   span {
-    text-transform: uppercase;
     font-size: 0.8rem;
     color: ${props => props.theme.colors.grey.light};
   }
@@ -27,7 +26,6 @@ const Next = styled.div`
   margin-left: auto;
   text-align: right;
   span {
-    text-transform: uppercase;
     font-size: 0.8rem;
     color: ${props => props.theme.colors.grey.light};
   }
@@ -45,13 +43,13 @@ export class PrevNext extends React.PureComponent<Props> {
       <Wrapper>
         {prev && (
           <Prev>
-            <span>Previous</span>
+            <span>Anterior</span>
             <Link to={`/${kebabCase(prev.frontmatter.title)}`}>{prev.frontmatter.title}</Link>
           </Prev>
         )}
         {next && (
           <Next>
-            <span>Next</span>
+            <span>Próximo</span>
             <Link to={`/${kebabCase(next.frontmatter.title)}`}>{next.frontmatter.title}</Link>
           </Next>
         )}
