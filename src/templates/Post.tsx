@@ -1,5 +1,4 @@
 import React from 'react';
-import Helmet from 'react-helmet';
 import { Link, graphql } from 'gatsby';
 import styled from 'styled-components';
 import kebabCase from 'lodash/kebabCase';
@@ -36,7 +35,6 @@ export default class PostPage extends React.PureComponent<Props> {
         {post ? (
           <>
             <SEO postPath={post.fields.slug} postNode={post} postSEO />
-            <Helmet title={`${post.frontmatter.title} | ${config.siteTitle}`} />
             <Header banner={post.frontmatter.featureImage ? post.frontmatter.featureImage.publicURL : '/assets/bg/word-cloud.png'}>
               <Link to="/">{config.siteTitle}</Link>
               <SectionTitle>{post.frontmatter.title}</SectionTitle>
@@ -81,6 +79,7 @@ export const postQuery = graphql`
         date(formatString: "DD.MM.YYYY")
         category
         tags
+        excerpt
         featureImage {
           publicURL
           relativePath

@@ -5,7 +5,7 @@ import config from '../../config/SiteConfig';
 import Post from '../models/Post';
 
 interface SEO {
-  postNode: Post;
+  postNode?: Post;
   postPath: string;
   postSEO: boolean;
 }
@@ -18,11 +18,14 @@ export const SEO = (props: SEO) => {
   let postURL;
   const realPrefix = config.pathPrefix === '/' ? '' : config.pathPrefix;
   if (postSEO) {
-    const postMeta = postNode.frontmatter;
-    title = postMeta.title;
-    description = postNode.excerpt;
-    image = config.siteBanner;
-    postURL = config.siteUrl + realPrefix + postPath;
+    const postMeta = postNode ? postNode.frontmatter : '';
+    title = postMeta ? postMeta.title : config.siteTitle;
+    description = postNode ? postNode.frontmatter.excerpt || postNode.excerpt : config.siteDescription;
+    image =
+      postNode && postNode.frontmatter && postNode.frontmatter.featureImage
+        ? postNode.frontmatter.featureImage.publicURL
+        : config.siteBanner;
+    postURL = config.siteUrl + config.pathPrefix + postPath;
   } else {
     title = config.siteTitle;
     description = config.siteDescription;
@@ -43,6 +46,7 @@ export const SEO = (props: SEO) => {
   if (postSEO) {
     schemaOrgJSONLD = [
       {
+        description,
         '@context': 'http://schema.org',
         '@type': 'BlogPosting',
         // @ts-ignore
@@ -56,9 +60,8 @@ export const SEO = (props: SEO) => {
           '@type': 'ImageObject',
           url: image,
         },
-        description: config.siteDescription,
-        datePublished: postNode.frontmatter.date,
-        dateModified: postNode.frontmatter.date,
+        datePublished: postNode ? postNode.frontmatter.date : '',
+        dateModified: postNode ? postNode.frontmatter.date : '',
         author: {
           '@type': 'Person',
           name: config.author,

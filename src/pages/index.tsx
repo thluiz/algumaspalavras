@@ -1,9 +1,8 @@
 import React from 'react';
 import { Link, graphql } from 'gatsby';
 import styled from 'styled-components';
-import { Layout, Wrapper, Button, Article } from '../components';
+import { Layout, Wrapper, Button, Article, SEO } from '../components';
 import PageProps from '../models/PageProps';
-import Helmet from 'react-helmet';
 import config from '../../config/SiteConfig';
 import { media } from '../utils/media';
 import rgba from 'polished/lib/color/rgba';
@@ -62,7 +61,7 @@ export default class IndexPage extends React.Component<PageProps> {
     return (
       <Layout>
         <Wrapper fullWidth={true}>
-          <Helmet title={`${config.siteTitle}`} />
+          <SEO postPath={config.siteTitle} postSEO={false} />
           <Homepage>
             <GridRow background={true}>
               <HomepageContent center={true}>
