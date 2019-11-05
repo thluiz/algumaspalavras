@@ -5,6 +5,11 @@ interface Frontmatter {
   tags: string[];
   featureImage?: {
     publicURL: string;
+    childImageSharp: {
+      ogImage: {
+        src: string;
+      };
+    };
   };
   excerpt?: string;
 }

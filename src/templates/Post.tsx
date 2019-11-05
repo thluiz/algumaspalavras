@@ -83,6 +83,11 @@ export const postQuery = graphql`
         featureImage {
           publicURL
           relativePath
+          childImageSharp {
+            ogImage: resize(width: 256) {
+              src
+            }
+          }
         }
       }
       timeToRead

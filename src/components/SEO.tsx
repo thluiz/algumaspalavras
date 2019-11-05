@@ -23,7 +23,7 @@ export const SEO = (props: SEO) => {
     description = postNode ? postNode.frontmatter.excerpt || postNode.excerpt : config.siteDescription;
     image =
       postNode && postNode.frontmatter && postNode.frontmatter.featureImage
-        ? postNode.frontmatter.featureImage.publicURL
+        ? postNode.frontmatter.featureImage.childImageSharp.ogImage.src
         : config.siteBanner;
     postURL = config.siteUrl + config.pathPrefix + postPath;
   } else {
