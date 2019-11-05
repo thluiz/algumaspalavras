@@ -4,7 +4,7 @@ title: "Inversão de Valores"
 category: "Historietas"
 tags: ['Vida Kung Fu', 'Sam Faat', '心法']
 featureImage: ./armando-ascorve-morales-XpmsZmAMf_g-unsplash-crop.jpg
-excerpt: "Algumas palavras e uma historieta que Si Fu contou sobre o processo de inversão de valores"
+excerpt: "Algumas palavras sobre uma historieta que o Si Fu nos contou"
 ---
 
 Certa vez [Si Fu](http://mestrejuliocamacho.com "Mestre Julio Camacho") nos contou a seguinte historieta: 
@@ -33,7 +33,7 @@ Certa vez [Si Fu](http://mestrejuliocamacho.com "Mestre Julio Camacho") nos cont
 
 ![Visitando a Vovó](./annie-spratt-s0eeLwNxcns-unsplash-cropped.jpg "https://unsplash.com/@anniespratt")
 
-*Dias se passaram a menina ficava ainda mais incomodada e foi até a casa dos Avós. Impaciente, sentiu o cheiro do almoço, correu para a cozinha e saiu perguntando:*
+*Naquela noite a menina mal dormiu, estava ainda mais incomodada e decidiu que iria tirar essa história a limpo. Partiu para a casa dos avós impaciente, ao chegar já sentindo o cheiro do almoço, correu para a cozinha e saiu perguntando:*
 
 *— __"Vovó! Que história é essa de que na nossa família usamos apenas o miolo do filet para fazer as refeições???"__*
 
