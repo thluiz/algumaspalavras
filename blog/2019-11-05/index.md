@@ -7,6 +7,12 @@ featureImage: './amanda-jones-CcIIao_-Eow-unsplash-cropped.jpg'
 excerpt: "Algumas palavras sobre como conseguir mais tempo"
 ---
 
+<p style='text-align: right;font-style: italic;color:#338833'>
+Quem não entende um olhar tampouco pode compreender uma grande explicação.
+<br />
+~ Manuel Bandeira
+</p>
+
 No Encontro Temático à Distância no dia 05/11/2019, [Si Fu](http://mestrejuliocamacho.com "Mestre Julio Camacho") nos contou o seguinte: 
 
 *Certa vez ao final de uma palestra em um evento com [Si Taai Gung](https://moyyat.institute/ "Patriarca Moy Yat") aqui no Brasil um dos participantes questionou:*
