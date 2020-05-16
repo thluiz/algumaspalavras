@@ -27,8 +27,8 @@ export default {
 
   // Manifest and Progress color
   // See: https://developers.google.com/web/fundamentals/web-app-manifest/
-  themeColor: '#e6ffe6',
-  backgroundColor: '#e6ffe6',
+  themeColor: '#c6d2cc',
+  backgroundColor: '#c6d2cc',
 
   // Settings for typography.ts
   headerFontFamily: 'Bitter',

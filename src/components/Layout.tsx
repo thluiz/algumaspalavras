@@ -162,17 +162,15 @@ class SiteLicense extends React.PureComponent<{}> {
         render={data => (
           <Content>
             <p>
-              &copy; {split(data.site.buildTime, '.')[2]} por Thiago Silva
+              &copy; {split(data.site.buildTime, '.')[2]} por Conselho de Membros Vitalícios              
               <br />
-              梅 知 友 士
-              <br />
-              Moy Chi Yau Si
+              Presidente: 梅 知 友 士 - Moy Chi Yau Si
             </p>
-            <p>Todos os direitos Reservados.</p>
+            <p>Todos os direitos Reservados.</p>            
+            <p>Última compilação: {data.site.buildTime}</p>
             <p>
               <a href="https://github.com/thluiz/algumaspalavras">GitHub</a>
             </p>
-            <p>Última compilação: {data.site.buildTime}</p>
           </Content>
         )}
       />
