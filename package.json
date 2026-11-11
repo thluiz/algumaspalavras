@@ -76,7 +76,7 @@
     "gatsby-plugin-sharp": "^2.2.36",
     "gatsby-remark-images": "^3.1.28",
     "gatsby-transformer-sharp": "^2.3.2",
-    "sharp": "^0.23.4"
+    "sharp": "^0.30.5"
   },
   "engines": {
     "node": ">=10.16.2 <11"
